@@ -1,0 +1,5 @@
+Feature: As a business user, I would like to make a record of all teams which are playing today
+  Scenario: Output all team names with a match today. If there are no matches today, output a message to convey this.
+    Given user Launch Chrome browser
+    When user opens url "https://www.bbc.co.uk/sport/football/scores-fixtures"
+    Then Output all team names with a match today.
